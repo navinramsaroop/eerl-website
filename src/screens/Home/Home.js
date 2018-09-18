@@ -1,7 +1,7 @@
 import React from 'react';
 import background from '../../resources/images/electricPoles.jpg';
 import Button from '@material-ui/core/Button';
-
+import HomeFooter from '../../components/HomeFooter/HomeFooter.js';
 export default class Home extends React.Component {
   render() {
     return (
@@ -30,16 +30,14 @@ export default class Home extends React.Component {
               href={'#'}
               size={'large'}
               variant="contained"
-              color="secondary"
+              style={{ backgroundColor: '#ffb805' }}
             >
-              Our Projects
+              PROJECTS
             </Button>
             <Button href={'#'}>About Us</Button>
           </div>
         </header>
-        <div className="footer-home-wrapper">
-          <div className="footer-home" />
-        </div>
+        <HomeFooter />
       </div>
     );
   }

@@ -1,0 +1,19 @@
+.footer-home-wrapper {
+  background-color: grey;
+  display: block;
+  flex-direction: row;
+  padding: 50px;
+  color: white;
+}
+.footer-home {
+  text-align: center;
+  background-color: white;
+  color: white;
+  font-size: 20px;
+  padding: 40px;
+  display: block;
+  box-shadow: 5px 5px 5px grey;
+  background-color: black;
+}
+.footer-home-initial-paragraph {
+}

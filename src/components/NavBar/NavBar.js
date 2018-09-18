@@ -9,28 +9,28 @@ export default class NavBar extends React.Component {
           <Ripple>
             <a href="#home" className="w3-bar-item w3-button">
               <b>EERL</b>
-              <strong> Energy and the Environment Research Laboratory</strong>
+              <strong> energy and the environment research laboratory</strong>
             </a>
           </Ripple>
           <div className="w3-right w3-hide-small">
             <Ripple>
               <a href="#projects" className="w3-bar-item w3-button">
-                Projects
+                projects
               </a>
             </Ripple>
             <Ripple>
               <a href="#about" className="w3-bar-item w3-button">
-                About
+                team
               </a>
             </Ripple>
             <Ripple>
               <a href="#contact" className="w3-bar-item w3-button">
-                Contact
+                news
               </a>
             </Ripple>
             <Ripple>
               <a href="#publications" className="w3-bar-item w3-button">
-                Publications
+                publications
               </a>
             </Ripple>
           </div>

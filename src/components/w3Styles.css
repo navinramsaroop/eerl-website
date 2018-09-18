@@ -1587,19 +1587,6 @@ img {
   border-color: #e7ffff !important;
 }
 
-.footer-home-wrapper {
-  background-color: white;
-}
-.footer-home {
-  text-align: center;
-  background-color: white;
-  color: white;
-  font-size: 20px;
-  padding: 40px;
-  display: block;
-  box-shadow: 5px 5px 5px grey;
-  background-color: black;
-}
 a.textLink {
   color: #f99213;
 }
