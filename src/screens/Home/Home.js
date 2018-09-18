@@ -20,11 +20,10 @@ export default class Home extends React.Component {
           />
           <div className="w3-display-middle w3-margin-top w3-center">
             <br />
-            <h1 className="w3-xxlarge w3-text-white">
-              <span className="w3-padding w3-black w3-opacity-min">
+            <h1 className="w3-xxxlarge w3-text-white">
+              <span className="w3-padding-x-large w3-light-black w3-opacity-min">
                 <b>EERL</b>
               </span>
-              <span className="w3-hide-small w3-text-light-grey">Energy</span>
             </h1>
             <br />
             <Button

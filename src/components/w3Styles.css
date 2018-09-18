@@ -1142,6 +1142,9 @@ img {
 .w3-padding-large {
   padding: 12px 24px !important;
 }
+.w3-padding-x-large {
+  padding: 16px 32px !important;
+}
 .w3-padding-16 {
   padding-top: 16px !important;
   padding-bottom: 16px !important;
@@ -1296,6 +1299,11 @@ img {
 .w3-hover-black:hover {
   color: #fff !important;
   background-color: #000 !important;
+}
+.w3-light-black,
+.w3-hover-light-black:hover {
+  color: #fff !important;
+  background-color: #00000070 !important;
 }
 .w3-grey,
 .w3-hover-grey:hover,
