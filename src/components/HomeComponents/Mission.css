@@ -1,0 +1,17 @@
+.mission-wrapper {
+  background-color: green;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  padding: 50px;
+  color: white;
+}
+.icon {
+  width: 100px;
+  height: 100px;
+}
+
+h1 {
+  letter-spacing: 3px;
+}

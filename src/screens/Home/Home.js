@@ -1,7 +1,9 @@
 import React from 'react';
 import background from '../../resources/images/electricPoles.jpg';
 import Button from '@material-ui/core/Button';
-import HomeFooter from '../../components/HomeFooter/HomeFooter.js';
+import HomeFooter from '../../components/HomeComponents/HomeFooter.js';
+import Mission from '../../components/HomeComponents/MissionStatement';
+
 export default class Home extends React.Component {
   render() {
     return (
@@ -38,6 +40,7 @@ export default class Home extends React.Component {
           </div>
         </header>
         <HomeFooter />
+        <Mission />
       </div>
     );
   }
