@@ -6,7 +6,7 @@ export default class Mission extends React.Component {
     return (
       <div style={{ alignItems: 'center' }} className={'mission-wrapper'}>
         <h1>Mission</h1>
-        <img src={globalElectricity} className={'icon'} />
+        <img src={globalElectricity} className={'icon'} alt={'electricity'} />
       </div>
     );
   }

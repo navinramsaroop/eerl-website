@@ -43,7 +43,5 @@ a.card-link:visited {
 a.card-link:hover {
   color: white;
   background: #ffffff20;
-  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
-    0 17px 50px 0 rgba(0, 0, 0, 0.19);
-  padding: 25px;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.5), 0 17px 50px 0 rgba(0, 0, 0, 0.5);
 }

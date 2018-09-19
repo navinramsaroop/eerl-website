@@ -19,19 +19,19 @@ export default class HomeFooter extends React.Component {
         </div>
         <FooterCard
           title={'MAPLEWOOD APARTMENTS'}
-          link={'/projects/maplewood-apartments'}
+          link={'/projects/#maplewoodapartments'}
           src={homeIcon}
           alt={'homeicon'}
         />
         <FooterCard
           title={'NETWORK OF BUILDINGS'}
-          link={'/projects/network-of-buildings'}
+          link={'/projects/#networkofbuildings'}
           src={circleLines}
           alt={'network of buildings'}
         />
         <FooterCard
           title={'WOODSMOKE SENSORS'}
-          link={'/projects/woodsmoke-sensors'}
+          link={'/projects/#woodsmokesensors'}
           src={factory}
           alt={'woodsmoke sensors'}
         />
