@@ -1,6 +1,6 @@
 import React from 'react';
 import '../w3Styles.css';
-import './HomeFooter.css';
+import './styles.css';
 import homeIcon from '../../resources/images/home.png';
 import circleLines from '../../resources/images/circleWithLines.png';
 import factory from '../../resources/images/factory.png';

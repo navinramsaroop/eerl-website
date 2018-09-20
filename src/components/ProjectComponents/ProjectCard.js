@@ -30,10 +30,10 @@ export default class ProjectMain extends React.Component {
           }}
         >
           <div className="project-overlay" style={{ left: left, right: right }}>
+            <div className="project-description">{this.props.description}</div>
             <div className="project-title-container">
               <h1> {this.props.title} </h1>
             </div>
-            <div className="project-description">{this.props.description}</div>
           </div>
 
           <img src={this.props.image} alt={this.props.title} />

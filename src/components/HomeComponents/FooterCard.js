@@ -1,6 +1,6 @@
 import React from 'react';
 import '../w3Styles.css';
-import './HomeFooter.css';
+import './styles.css';
 import { Link } from 'react-router-dom';
 export default class FooterCard extends React.Component {
   render() {

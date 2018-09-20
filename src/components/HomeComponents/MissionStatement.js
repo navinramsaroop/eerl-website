@@ -1,6 +1,6 @@
 import React from 'react';
 import globalElectricity from '../../resources/images/globalElectricity.png';
-import './Mission.css';
+import './styles.css';
 export default class Mission extends React.Component {
   render() {
     return (

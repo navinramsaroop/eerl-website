@@ -28,8 +28,9 @@ export default class Home extends React.Component {
               </span>
             </h1>
             <br />
+            <br />
             <Button
-              href={'#'}
+              href={'/projects'}
               size={'large'}
               variant="contained"
               style={{ backgroundColor: '#ffb805' }}
