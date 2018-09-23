@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Home from './screens/Home/Home';
 import Projects from './screens/Projects/Projects';
+import Team from './screens/Team/Team';
 import NavBar from './components/NavBar/NavBar';
 
 import { Route } from 'react-router-dom';
@@ -12,6 +13,7 @@ class App extends Component {
         <NavBar />
         <Route path="/projects" component={Projects} />
         <Route path="/home" component={Home} />
+        <Route path ="/team" component={Team}/>
       </div>
     );
   }
