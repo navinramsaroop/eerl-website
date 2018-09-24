@@ -29,6 +29,7 @@ export default class Home extends React.Component {
             </h1>
             <br />
             <br />
+            <br />
             <Button
               href={'/projects'}
               size={'large'}

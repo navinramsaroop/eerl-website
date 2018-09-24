@@ -296,6 +296,7 @@ img {
   white-space: nowrap;
   -webkit-transition-duration: 0.4s; /* Safari */
   transition-duration: 0.4s;
+  position: relative;
 }
 .w3-btn:hover {
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -475,6 +476,7 @@ img {
   border: none;
   display: block;
   outline: 0;
+  text-decoration: none;
 }
 .w3-bar .w3-dropdown-hover,
 .w3-bar .w3-dropdown-click {
@@ -1175,7 +1177,25 @@ img {
 }
 .w3-button:hover {
   color: #000 !important;
-  background-color: #ccc !important;
+}
+.w3-button:before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #000;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+.w3-button:hover:before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
 }
 .w3-transparent,
 .w3-hover-none:hover {
@@ -1604,6 +1624,5 @@ a.textLink:visited {
 }
 
 a.textLink:hover {
-  text-decoration: underline;
-  text-decoration-style: dashed;
+  text-decoration: none;
 }
