@@ -24,7 +24,7 @@ export default class HomeFooter extends React.Component {
           alt={'homeicon'}
         />
         <FooterCard
-          title={'NETWORK OF BUILDINGS'}
+          title={'STATEWIDE IOT NETWORK'}
           link={'/projects/#networkofbuildings'}
           src={circleLines}
           alt={'network of buildings'}
