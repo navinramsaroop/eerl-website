@@ -1,0 +1,22 @@
+.jumbo-header-team {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-top: 50px;
+    background-color: #4A4949;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
+
+  h2 {
+      text-align: center;
+      margin-bottom: 5px;
+      padding-top: 30px;
+      letter-spacing: 3px;
+      font-size: 1.5em;
+  }
+
+  .spacing-header {
+      padding-bottom: 20px;
+  }

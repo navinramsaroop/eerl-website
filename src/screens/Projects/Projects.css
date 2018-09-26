@@ -1,0 +1,10 @@
+.jumbo-header {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-top: 50px;
+  background-color: #e07416;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}

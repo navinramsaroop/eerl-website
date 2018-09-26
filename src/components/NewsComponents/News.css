@@ -1,0 +1,10 @@
+.news-wrapper {
+  display: block;
+  padding: 50px;
+}
+
+.news-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
