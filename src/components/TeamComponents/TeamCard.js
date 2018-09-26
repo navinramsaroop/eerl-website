@@ -21,25 +21,42 @@ export default class TeamCard extends React.Component {
     }
 
     render() {
-    return (
-    <div>
-      <div className="card grow" onClick={this.toggle}>
-        <img src={maxZhang} className="card-img"/>
-        <div class="card-content">
-		<h2 class="card-title">
-			MAX ZHANG
-		</h2>
-        
+    if (this.props.card){
+        return (
+        <div>
+          <div className="card grow" onClick={this.toggle}>
+            <img src={this.props.image} className="card-img"/>
+            <div class="card-content">
+        <h2 class="card-title">
+          {this.props.name}
+        </h2>
+            
+            </div>
+          
+          </div>
+          <Modal isOpen={this.state.modal} toggle={this.toggle} className={this.props.className}>
+              <ModalHeader toggle={this.toggle}>{this.props.name}</ModalHeader>
+              <ModalBody className="card-modal-body">
+                {this.props.bio}
+              </ModalBody>
+            </Modal>
+          </div>
+        );
+    } else {
+      return (
+        <div>
+        <div className="slip grow" onClick={this.toggle}>
+          {this.props.name}
         </div>
-      
-      </div>
-      <Modal isOpen={this.state.modal} toggle={this.toggle} className={this.props.className}>
-          <ModalHeader toggle={this.toggle}>MAX ZHANG, PI</ModalHeader>
-          <ModalBody className="card-modal-body">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-          </ModalBody>
-        </Modal>
-      </div>
-    );
+        <Modal isOpen={this.state.modal} toggle={this.toggle} className={this.props.className}>
+              <ModalHeader toggle={this.toggle}>{this.props.name}</ModalHeader>
+              <ModalBody className="card-modal-body">
+                {this.props.bio}
+              </ModalBody>
+            </Modal>
+        </div>
+      );
+    }
+
   }
 }
