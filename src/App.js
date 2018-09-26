@@ -11,7 +11,7 @@ class App extends Component {
     return (
       <div>
         <NavBar />
-        <Route path="/eerl-website/projects" component={Projects} />
+        <Route path="/projects" component={Projects} />
         <Route path="/eerl-website/home" component={Home} />
         <Route path="/eerl-website/team" component={Team} />
       </div>
