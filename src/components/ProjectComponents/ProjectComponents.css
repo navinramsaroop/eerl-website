@@ -17,6 +17,7 @@
   align-items: center;
   display: flex;
   transition-duration: 1s;
+  padding: 10px;
 }
 .project-wrapper:hover .project-overlay {
   width: 100%;
@@ -37,9 +38,12 @@
 .project-description {
   display: none;
   position: absolute;
-  right: 0;
+  right: 10px;
   width: 600px;
   padding: 50px;
+  opacity: 1;
+  background-color: #00000090;
+  border-radius: 5px;
 }
 .project-title-container {
   display: flex;

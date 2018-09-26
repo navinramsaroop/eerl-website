@@ -5,20 +5,20 @@ import 'tachyons';
 import { Button, Modal, ModalHeader, ModalBody, ModalFooter } from 'reactstrap';
 
 export default class TeamCard extends React.Component {
-    constructor(props) {
+  constructor(props) {
     super(props);
     this.state = {
-        modal: false
+      modal: false
     };
 
     this.toggle = this.toggle.bind(this);
-    }
+  }
 
-    toggle() {
+  toggle() {
     this.setState({
-        modal: !this.state.modal
+      modal: !this.state.modal
     });
-    }
+  }
 
     render() {
     if (this.props.card){
