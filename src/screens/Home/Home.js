@@ -38,7 +38,7 @@ export default class Home extends React.Component {
             >
               PROJECTS
             </Button>
-            <Button href={'#'}>About Us</Button>
+            <Button href={'/team'}>About Us</Button>
           </div>
         </header>
         <HomeFooter />

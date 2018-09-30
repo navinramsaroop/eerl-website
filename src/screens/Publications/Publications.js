@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
 
-import { Route } from 'react-router-dom';
-
 class Publications extends Component {
   render() {
     return (
