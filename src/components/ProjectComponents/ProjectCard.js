@@ -26,7 +26,7 @@ export default class ProjectMain extends React.Component {
         <div
           className="project-wrapper"
           style={{
-            height: this.state.isOpen ? HEIGHT_OF_PROJECT : HEIGHT_OF_PROJECT
+            height: HEIGHT_OF_PROJECT
           }}
         >
           <div className="project-overlay" style={{ left: left, right: right }}>
@@ -42,15 +42,3 @@ export default class ProjectMain extends React.Component {
     );
   }
 }
-/*
-
-<button
-  className={'learn-more-button'}
-  onClick={() => {
-    this.setState({ isOpen: !this.state.isOpen });
-  }}
->
-  {this.state.isOpen ? 'Minimize' : 'Learn More'}
-</button>
-
-*/

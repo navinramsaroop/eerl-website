@@ -8,7 +8,7 @@ export default class NavBar extends React.Component {
       <div className="w3-top">
         <div className="w3-bar w3-white w3-wide w3-padding w3-card">
           <Ripple>
-            <Link to="/home" className="w3-bar-item w3-button">
+            <Link to="/" className="w3-bar-item w3-button">
               <b>EERL</b>
               <strong> energy and the environment research laboratory</strong>
             </Link>
