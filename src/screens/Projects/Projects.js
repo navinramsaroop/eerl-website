@@ -1,16 +1,13 @@
 import React from 'react';
 
-import './Projects.css';
-
+import Header from '../../components/SharedComponents/Header';
 import ProjectMain from '../../components/ProjectComponents/ProjectMain';
 
 export default class ProjectPage extends React.Component {
   render() {
     return (
       <div>
-        <div className="jumbo-header">
-          <h1>PROJECTS</h1>
-        </div>
+        <Header title={'PROJECTS'} />
         <ProjectMain />
       </div>
     );

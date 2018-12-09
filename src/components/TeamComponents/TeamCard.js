@@ -25,8 +25,8 @@ export default class TeamCard extends React.Component {
         <div>
           <div className="card grow" onClick={this.toggle}>
             <img src={this.props.image} alt="profile" className="card-img" />
-            <div class="card-content">
-              <h2 class="card-title">{this.props.name}</h2>
+            <div className="card-content">
+              <h2 className="card-title">{this.props.name}</h2>
             </div>
           </div>
           <Modal

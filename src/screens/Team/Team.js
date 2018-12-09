@@ -5,11 +5,11 @@ import {
   MEMBERS_POST_DOCS,
   MEMBERS_PRINCIPLE_INVESTIGATORS,
   MEMBERS_MASTERS
-} from '../../resources/members';
+} from '../../resources/members.js';
 
 import './Team.css';
 import 'tachyons';
-
+import Header from '../../components/SharedComponents/Header';
 import TeamCard from '../../components/TeamComponents/TeamCard';
 
 export default class TeamPage extends React.Component {
@@ -20,6 +20,7 @@ export default class TeamPage extends React.Component {
         name={member.name}
         image={member.picture}
         bio={member.biography}
+        key={member.name}
       />
     ));
 
@@ -30,6 +31,7 @@ export default class TeamPage extends React.Component {
           name={member.name}
           image={member.picture}
           bio={member.biography}
+          key={member.name}
         />
       );
     });
@@ -41,6 +43,7 @@ export default class TeamPage extends React.Component {
           name={member.name}
           image={member.picture}
           bio={member.biography}
+          key={member.name}
         />
       );
     });
@@ -52,6 +55,7 @@ export default class TeamPage extends React.Component {
           name={member.name}
           image={member.picture}
           bio={member.biography}
+          key={member.name}
         />
       );
     });
@@ -64,6 +68,7 @@ export default class TeamPage extends React.Component {
             name={member.name}
             image={member.picture}
             bio={member.biography}
+            key={member.name}
           />
         );
       }
@@ -71,9 +76,7 @@ export default class TeamPage extends React.Component {
 
     return (
       <div>
-        <div className="jumbo-header-team">
-          <h1>THE TEAM</h1>
-        </div>
+        <Header backgroundColor={'grey'} title={'THE TEAM'} />
         <h2>PRINCIPAL INVESTIGATOR</h2>
         <div className="flex flex-wrap justify-center">{prinpInvComp}</div>
         <h2>POST-DOC</h2>

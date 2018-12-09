@@ -9,7 +9,6 @@ import { Route } from 'react-router-dom';
 
 class App extends Component {
   render() {
-    console.log('Your process.env.PUBLIC_URL', process.env.PUBLIC_URL);
     return (
       <div>
         <NavBar />

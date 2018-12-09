@@ -16,22 +16,22 @@ export default class NavBar extends React.Component {
           <div className="w3-right w3-hide-small">
             <Ripple>
               <Link to="/projects" className="w3-bar-item w3-button">
-                projects
+                Projects
               </Link>
             </Ripple>
             <Ripple>
               <Link to="/team" className="w3-bar-item w3-button">
-                team
+                Team
               </Link>
             </Ripple>
             <Ripple>
               <Link to="/news" className="w3-bar-item w3-button">
-                news
+                News
               </Link>
             </Ripple>
             <Ripple>
               <Link to="/publications" className="w3-bar-item w3-button">
-                publications
+                Publications
               </Link>
             </Ripple>
           </div>
