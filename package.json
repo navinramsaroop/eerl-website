@@ -1,15 +1,18 @@
 {
   "name": "eerl-website",
-  "homepage": "https://navinramsaroop.github.io/eerl-website/",
+  "homepage": "https://navinramsaroop.github.io/eerl-website",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "@material-ui/core": "^3.0.3",
+    "merge": ">=1.2.1",
+    "npm": "^6.4.1",
     "react": "^16.4.2",
     "react-dom": "^16.4.2",
     "react-material-ripple": "^0.1.1",
     "react-router-dom": "^4.3.1",
     "react-scripts": "1.1.5",
+    "react-search-input": "^0.11.3",
     "reactstrap": "^6.4.0",
     "tachyons": "^4.11.1"
   },
